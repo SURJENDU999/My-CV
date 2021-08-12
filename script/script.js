@@ -1,0 +1,1 @@
+Certificate.innerHTML = div[3]

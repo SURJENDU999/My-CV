@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgba(19, 26, 26, 0.938);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "CV";
+    }
+    20% {
+      content: "CERTIFICATE";
+    }
+    35% {
+      content: "PROJECTS";
+    }
+    60% {
+      content: "GALLARY";
+    }
+    80% {
+      content: "ART WORKS";
+    }
+    100% {
+      content: "VIDEOS";
+    }
+  }
+
+
+  
